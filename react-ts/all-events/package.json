@@ -10,21 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pexip-engage-public/plugin-react": "^2.0.18",
+    "@pexip-engage-public/plugin-react": "^2.0.30",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.55",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.1"
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.7"
   },
   "stackblitz": {
     "files": "src/main.ts"
