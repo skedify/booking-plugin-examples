@@ -9,7 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@pexip-engage-public/plugin": "^1.0.30",
-    "vite": "^5.2.7"
+    "@pexip-engage-public/plugin": "^1.1.30",
+    "vite": "^7.1.8"
+  },
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "pnpm": "^10.17.1"
+  },
+  "volta": {
+    "node": "24.8.0"
   }
 }
