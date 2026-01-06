@@ -1,33 +1,33 @@
 {
-  "name": "all-events",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@pexip-engage-public/plugin-react": "^2.1.44",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.0",
-    "@types/react-dom": "^19.2.0",
-    "@vitejs/plugin-react": "^5.0.4",
-    "typescript": "^5.9.3",
-    "vite": "^7.1.8"
-  },
-  "packageManager": "pnpm@10.17.1",
-  "engines": {
-    "pnpm": "^10.17.1"
-  },
-  "volta": {
-    "node": "24.8.0"
-  },
-  "stackblitz": {
-    "files": "src/main.ts"
-  }
+	"name": "all-events",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@pexip-engage-public/plugin-react": "^2.1.57",
+		"react": "^19.2.3",
+		"react-dom": "^19.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.7",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^5.1.2",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.0"
+	},
+	"packageManager": "pnpm@10.27.0",
+	"engines": {
+		"pnpm": "^10.27.0"
+	},
+	"volta": {
+		"node": "24.12.0"
+	},
+	"stackblitz": {
+		"files": "src/main.ts"
+	}
 }
