@@ -1,2 +1,2 @@
 /** @typedef {import('@pexip-engage-public/plugin/dist/instance')} */
-import './style.css';
+import "./style.css";
