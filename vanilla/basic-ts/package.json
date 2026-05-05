@@ -1,5 +1,5 @@
 {
-	"name": "fallback",
+	"name": "basic",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -22,5 +22,8 @@
 			"version": "24.15.0",
 			"onFail": "download"
 		}
+	},
+	"stackblitz": {
+		"files": "src/main.ts"
 	}
 }

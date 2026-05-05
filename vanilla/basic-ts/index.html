@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engage Plugin - Vanilla - Basic</title>
+    <!--
+      Replace the placeholder values with your actual enterprise, and remove the `<>` brackets:
+      Afterwards take a look at src/main.js to see the example!
+    -->
+    <script type="text/javascript">
+      (function(e,r,s){if(typeof r>"u")return;let n="PexipEngage",a="script";e[n]=e[n]||function(){e[n].q=e[n].q||[];let g=arguments;if(g[0]==="init"){if(e[n].loaded)return;let i=r.getElementsByTagName(a)[0],t=r.createElement(a);t.defer=!0,t.async=!0,t.src=s,e[n].loaded=!0,i?.parentNode?.insertBefore(t,i);return}return new Promise((i,t)=>e[n].q.push([g,i,t]))};})
+      (window,document,"https://plugin.pexipengage.com/{YOUR-ENTERPRISE-NAME}/pexip-engage-plugin.js");
+      window.PexipEngage("init");
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div
+      class="pexip-engage-plugin"
+      data-pexip-customer-timezone="Europe/Brussels"
+      data-pexip-version="1.0.0"
+    ></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

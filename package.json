@@ -1,0 +1,12 @@
+{
+  "name": "booking-plugin-examples",
+  "packageManager": "pnpm@11.0.4",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.15.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {}
+}
